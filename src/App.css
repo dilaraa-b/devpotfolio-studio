@@ -1254,3 +1254,12 @@ select:focus-visible {
     flex-direction: column;
   }
 }
+.app-shell:not(:has(.sidebar)) .main-content {
+  width: 100%;
+  min-width: 0;
+  margin-left: 0;
+}
+
+.app-shell {
+  overflow-x: hidden;
+}
